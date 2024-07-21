@@ -37,6 +37,12 @@ const Producto: Collection = {
             type: 'string',
             required: false,
         },
+        {
+            name: 'cantidad',
+            label: 'Cantidad',
+            type: 'number',
+            required: true
+        }
     ],
     defaultItem: () => {
         return {
