@@ -12,6 +12,7 @@
 
     {{ .Summary | emojify | safeHTML }}
 
+    <!-- TODO: Hacer un partial -->
     <div class="card-actions justify-between items-center mt-4">
       {{ if .Params.cantidad | eq 0 }}
       <span class="badge badge-error" style="color: red;">Agotado</span>
