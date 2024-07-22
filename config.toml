@@ -1,4 +1,5 @@
 baseURL = 'http://example.org/'
-languageCode = 'en-us'
+languageCode = 'es-mx'
 title = 'Tecnomanía'
 theme = "dream"
+defaultContentLanguage = "es"
