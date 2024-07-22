@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Productos on Tecnomanía</title>
+    <link>http://localhost:1313/productos/</link>
+    <description>Recent content in Productos on Tecnomanía</description>
+    <generator>Hugo</generator>
+    <language>es-mx</language>
+    <atom:link href="http://localhost:1313/productos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/productos/alexa-echo-dot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/productos/alexa-echo-dot/</guid>
+      <description>Alexa Echo Dot</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/productos/alexa-echo-show-5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/productos/alexa-echo-show-5/</guid>
+      <description>Alexa Echo Show 5</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/productos/audifonos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/productos/audifonos/</guid>
+      <description>Audífonos GT-800</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/productos/fire-tv-stick/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/productos/fire-tv-stick/</guid>
+      <description>Fire TV Stick</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/productos/mi-primer-producto/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/productos/mi-primer-producto/</guid>
+      <description>Bocina JBL</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/productos/mi-smart-band-5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/productos/mi-smart-band-5/</guid>
+      <description>Pulsera inteligente Mi Smart Band 5</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/productos/mouse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/productos/mouse/</guid>
+      <description>Control inalámbrico para Nintendo y PC</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/productos/roku-express/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/productos/roku-express/</guid>
+      <description>Roku express</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/productos/teclado-mecnico/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/productos/teclado-mecnico/</guid>
+      <description>Control inalámbrico para Nintendo Switch</description>
+    </item>
+  </channel>
+</rss>
