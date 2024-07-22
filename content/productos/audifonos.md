@@ -1,8 +1,9 @@
 ---
-nombre: Audífonos
-precio: 1500
-imagenUrl: 'https://tse4.mm.bing.net/th?id=OIP.N4hSxd4m1jBPWP8S22lgBQAAAA&pid=Api'
+nombre: Audífonos GT-800
+precio: 599
+imagenUrl: 'https://tse4.mm.bing.net/th?id=OIP.y-RE9G1cCB1aDJI6CJwK8gHaHa&pid=Api'
+categoria: audio
 cantidad: 5
 ---
 
-Audífonos
+Audífonos GT-800

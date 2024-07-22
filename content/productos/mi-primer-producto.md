@@ -1,9 +1,9 @@
 ---
-nombre: Laptop
-precio: 8000
-imagenUrl: 'https://tse2.mm.bing.net/th?id=OIP.eu4IYBiyINVLWd3K-Vz3kgHaFt&pid=Api'
-categoria: computadoras
+nombre: Bocina JBL
+precio: 1300
+imagenUrl: 'https://tse4.mm.bing.net/th?id=OIP.QrYnMwh80QSONKazY7R7vQHaHa&pid=Api'
+categoria: audio
 cantidad: 0
 ---
 
-Laptop
+Bocina JBL

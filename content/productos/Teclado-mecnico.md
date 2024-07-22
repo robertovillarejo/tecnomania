@@ -1,9 +1,9 @@
 ---
-nombre: Teclado mecánico
-precio: 1200
-imagenUrl: 'https://tse1.mm.bing.net/th?id=OIP.ZnGY-YoqD5UFezb8r1zH9QHaEl&pid=Api'
-categoria: accesorios
+nombre: Control inalámbrico para Nintendo Switch
+precio: 400
+imagenUrl: 'https://tse1.mm.bing.net/th?id=OIP.ug2hQzny5C0YY5X03zMwkQHaHa&pid=Api'
+categoria: juegos
 cantidad: 3
 ---
 
-Teclado mecánico
+Control inalámbrico para Nintendo Switch

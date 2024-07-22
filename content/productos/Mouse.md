@@ -1,9 +1,9 @@
 ---
-nombre: Mouse
-precio: 500
-imagenUrl: 'https://tse1.mm.bing.net/th?id=OIP.T1SZTeNPKexF2FMwYPg6twHaHa&pid=Api'
-categoria: accesorios
+nombre: Control inalámbrico para Nintendo y PC
+precio: 350
+imagenUrl: 'https://tse4.mm.bing.net/th?id=OIP.DRDmnMP-90frPRqxHBeMGAHaHa&pid=Api'
+categoria: juegos
 cantidad: 2
 ---
 
-Mouse
+Control inalámbrico para Nintendo y PC
