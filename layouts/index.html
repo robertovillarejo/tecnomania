@@ -1,0 +1,32 @@
+{{ define "main" }}
+<div class="productos-cuadricula">
+    {{ range where .Site.RegularPages "Type" "productos" }}
+    <div class="producto">
+        <img src="{{ .Params.imagenUrl }}" alt="{{ .Title }}">
+        <h2>{{ .Title }}</h2>
+        <p>Precio: ${{ .Params.precio }}</p>
+        <p>Categoría: {{ .Params.categoria }}</p>
+        {{ if .Params.cantidad | eq 0 }}
+        <p>Producto agotado!</p>
+        {{ else }}
+        <p>Cantidad disponible: {{ .Params.cantidad }}</p>
+        {{ end}}
+    </div>
+    {{ end }}
+</div>
+{{ end }}
+
+{{ define "customStyles" }}
+<style>
+    .productos-cuadricula {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 20px;
+    }
+
+    .producto {
+        border: 1px solid #ccc;
+        padding: 10px;
+    }
+</style>
+{{ end }}
