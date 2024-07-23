@@ -15,9 +15,9 @@ const Producto: Collection = {
         {
             name: 'descripcion',
             label: 'Descripción',
-            type: 'string',
+            type: 'rich-text',
             required: false,
-            isBody: true
+            isBody: true,
         },
         {
             name: 'precio',
