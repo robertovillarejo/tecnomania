@@ -29,7 +29,7 @@ const Producto: Collection = {
             name: 'imagenUrl',
             label: 'URL de la imagen',
             type: 'string',
-            required: false,
+            required: true,
         },
         {
             name: 'categoria',
@@ -43,13 +43,7 @@ const Producto: Collection = {
             type: 'number',
             required: true
         }
-    ],
-    defaultItem: () => {
-        return {
-            id: 1,
-            nombre: "Nuevo producto"
-        }
-    }
+    ]
 };
 
 export default Producto;
