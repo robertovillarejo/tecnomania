@@ -2,7 +2,7 @@
 nombre: Audífonos GT-800
 precio: 599
 imagenUrl: /uploads/audifonos.jpeg
-categoria: audio
+categories: ['Audio','PC']
 cantidad: 5
 ---
 

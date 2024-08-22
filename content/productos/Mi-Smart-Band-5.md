@@ -2,7 +2,7 @@
 nombre: Mi Smart Band 5
 precio: 450
 imagenUrl: /uploads/reloj.jpeg
-categoria: weareables
+categories: ['Wearables','Fitness']
 cantidad: 2
 ---
 

@@ -2,7 +2,7 @@
 nombre: Alexa Echo Show 5
 precio: 1300
 imagenUrl: /uploads/alexa.jpeg
-categoria: asistentes
+categories: ['Hogar','Asistentes','Amazon']
 cantidad: 5
 ---
 

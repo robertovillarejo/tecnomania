@@ -2,7 +2,7 @@
 nombre: Control inalámbrico para Nintendo y PC
 precio: 350
 imagenUrl: /uploads/control.jpeg
-categoria: juegos
+categories: ['Hogar','PC']
 cantidad: 2
 ---
 

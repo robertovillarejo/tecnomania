@@ -2,7 +2,7 @@
 nombre: Fire TV Stick
 precio: 600
 imagenUrl: /uploads/firetv.jpeg
-categoria: hogar
+categories: ['Hogar','TV','Amazon']
 cantidad: 6
 ---
 
