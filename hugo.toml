@@ -9,3 +9,7 @@ darkTheme = "forest"
 avatar = "/uploads/logo_tecnomania.png"
 favicon = "/favicon.ico"
 headerTitle = "Tecnomanía"
+
+[params.navItems]
+mision = { href = "/pages/mision", icon = "rocket-outline", title = "Misión" }
+vision = { href = "/pages/vision", icon = "compass-outline", title = "Visión" }
