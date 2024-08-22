@@ -38,11 +38,11 @@ const Producto: Collection = {
             required: true,
         },
         {
-            name: 'categoria',
-            label: 'Categoría',
+            label: 'Categorías',
+            name: 'categories',
             type: 'string',
-            required: false,
-        },
+            list: true,
+          },
         {
             name: 'cantidad',
             label: 'Cantidad',
