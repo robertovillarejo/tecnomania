@@ -36,8 +36,12 @@ site.Params.customSyntaxHighlighting }}
     </header>
 
     <img src="{{ .Params.imagenUrl }}" alt="{{ .Title }}" />
-    <p class="date text-base-content/60">{{ .Params.categoria}}</p>
-
+    <ul>
+      {{ range .Params.categories }}
+        <li class="badge">{{ . }}</li>
+      {{ end }}
+    </ul>
+    
     {{ .Content | emojify }}
   </article>
 
