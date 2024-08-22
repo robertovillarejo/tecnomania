@@ -1,7 +1,14 @@
 {{ define "main"}}
 
-{{ $paginator := .Paginate (where .Site.RegularPages "Type" "productos") }}
+{{ $paginator := .Paginate (where site.RegularPages "Type" "productos") }}
 
+{{ if site.Params.zenMode }}
+<div class="dream-zen-posts max-w-[65ch] mt-8 mx-auto px-4 space-y-8">
+{{ range $paginator.Pages }}
+  {{ .Render "zen-summary" }}
+{{ end }}
+</div>
+{{ else }}
 <div class="dream-grid">
   {{ range $paginator.Pages }}
   <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
@@ -9,6 +16,7 @@
   </div>
   {{ end }}
 </div>
+{{ end }}
 
 {{ if gt $paginator.TotalPages 1 }}
 <div class="flex justify-center mt-8">
@@ -20,7 +28,7 @@
 
 {{ define "js" }}
 
-{{ if .Site.Params.Experimental.jsDate }}
+{{ if site.Params.Experimental.jsDate }}
 {{ partial "luxon.html" . }}
 {{ end }}
 

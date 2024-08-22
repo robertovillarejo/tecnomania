@@ -11,7 +11,5 @@ favicon = "/favicon.ico"
 headerTitle = "Tecnomanía"
 
 [params.navItems]
-mision = { href = "/pages/mision", icon = "rocket-outline", title = "Misión" }
-vision = { href = "/pages/vision", icon = "compass-outline", title = "Visión" }
 facebook = { href = "https://www.facebook.com/TecnomaniaMXN", target="_blank", icon = "logo-facebook", title = "Facebook" }
 instagram = { href = "https://www.instagram.com/tecnomania_store", target="_blank", icon = "logo-instagram", title = "Instagram" }
