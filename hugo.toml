@@ -3,14 +3,20 @@ languageCode = 'es-mx'
 title = 'Tecnomanía'
 theme = "dream"
 defaultContentLanguage = "es"
+
 [params]
 lightTheme = "emerald"
 darkTheme = "forest"
 avatar = "/uploads/logo_tecnomania.png"
 favicon = "/favicon.ico"
 headerTitle = "Tecnomanía"
+showSummaryCoverInPost = true
+collapseNavItems = ["posts"]
+reorderNavItems = ["search", "rss", "posts", "categories", "tags", "facebook", "instagram", "admin"]
 
 [params.navItems]
 facebook = { href = "https://www.facebook.com/TecnomaniaMXN", target="_blank", icon = "logo-facebook", title = "Facebook" }
 instagram = { href = "https://www.instagram.com/tecnomania_store", target="_blank", icon = "logo-instagram", title = "Instagram" }
-login = { href = "/admin", target="_blank", icon = "person-circle-outline", title = "Admin" }
+mision = { href = "/pages/mision", target="_self", icon = "rocket", title = "Misión" }
+vision = { href = "/pages/vision", target="_self", icon = "glasses", title = "Visión" } 
+admin = { href = "/admin", target="_blank", icon = "person-circle-outline", title = "Admin" }
