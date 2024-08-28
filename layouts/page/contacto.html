@@ -1,0 +1,39 @@
+{{ define "title" }}{{ .Title }}{{ end }}
+
+{{ define "main" }}
+<div class="mt-4 px-4">
+  <div>
+    <article class="mx-auto prose dark:prose-invert" id="dream-single-post-main" itemscope>
+
+      <header style="text-align: center;">
+        <h1 itemprop="headline">{{ .Title }}</h1>
+      </header>
+
+      {{ .Content | emojify }}
+
+      <!-- Enlaces sociales -->
+      <div>
+        <ul class="menu menu-horizontal flex-wrap w-full px-0 [&_ion-icon]:text-lg">
+
+          {{ range site.Data.socials.socials }}
+          <li>
+            <a href="{{ .href }}" target="{{ .target }}" title="{{ .title }}">
+              <ion-icon name="{{ .icon }}" style="font-size: 100px;"></ion-icon>
+            </a>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+
+      <!-- Google Maps -->
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d395.7321783297358!2d-99.60219115143043!3d18.56062373443932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cc4bee10ce3891%3A0xbbf180a83bda2ea4!2sTecnomania!5e0!3m2!1ses-419!2smx!4v1724875362039!5m2!1ses-419!2smx"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+      <div></div>
+  </div>
+  </article>
+</div>
+</div>
+{{ end }}

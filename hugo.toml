@@ -12,7 +12,7 @@ favicon = "/favicon.ico"
 headerTitle = "Tecnomanía"
 showSummaryCoverInPost = true
 collapseNavItems = ["posts"]
-reorderNavItems = ["search", "rss", "posts", "categories", "tags", "facebook", "instagram", "admin"]
+reorderNavItems = ["search", "rss", "posts", "categories", "tags", "contacto", "facebook", "instagram", "admin"]
 
 [params.navItems]
 facebook = { href = "https://www.facebook.com/TecnomaniaMXN", target="_blank", icon = "logo-facebook", title = "Facebook" }
@@ -20,3 +20,4 @@ instagram = { href = "https://www.instagram.com/tecnomania_store", target="_blan
 mision = { href = "/pages/mision", target="_self", icon = "rocket", title = "Misión" }
 vision = { href = "/pages/vision", target="_self", icon = "glasses", title = "Visión" } 
 admin = { href = "/admin", target="_blank", icon = "person-circle-outline", title = "Admin" }
+contacto = { href = "/contacto", target="_self", icon = "map-outline", title = "Contacto" }
