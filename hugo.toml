@@ -11,6 +11,7 @@ avatar = "/uploads/logo_tecnomania.png"
 favicon = "/favicon.ico"
 headerTitle = "Tecnomanía"
 showSummaryCoverInPost = true
+motto = "Tu tienda de tecnología"
 collapseNavItems = ["posts"]
 reorderNavItems = ["search", "rss", "posts", "categories", "tags", "contacto", "facebook", "instagram", "admin"]
 
