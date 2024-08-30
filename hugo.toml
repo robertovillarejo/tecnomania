@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://tecnomania.vercel.app'
 languageCode = 'es-mx'
 title = 'Tecnomanía'
 theme = "dream"
