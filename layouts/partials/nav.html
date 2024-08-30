@@ -93,6 +93,11 @@
       {{ partial "navCustomItems.html" (dict "navItems" $navItems "mobile" false) }}
       {{ end }}
 
+      <!-- Administrador -->
+      <a id="ingresar" class="text-sm font-semibold cursor-pointer hover:underline" href="/admin" target="_blank">
+        Ingresar
+      </a>
+
       {{ else }}
 
       {{ $collapseNavItems := site.Params.collapseNavItems }}
@@ -100,6 +105,7 @@
       {{ range $items }}
       {{ partial "renderNavItem.html" . }}
       {{ end }}
+
 
       <div class="dropdown dropdown-end dropdown-hover">
         <div tabindex="0" role="button" class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" aria-label="Select an option">
@@ -119,3 +125,10 @@
     </section>
   </div>
 </nav>
+<script>
+  const estaAutenticado = !!JSON.parse(localStorage.getItem('tinacms-auth'));
+  const ingresarAnchor = document.getElementById('ingresar');
+  if (estaAutenticado) {
+    ingresarAnchor.style.display = 'none';
+  }
+</script>
