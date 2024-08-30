@@ -42,6 +42,7 @@ const Producto: Collection = {
             name: 'categories',
             type: 'string',
             list: true,
+            required: true
           },
         {
             name: 'cantidad',
