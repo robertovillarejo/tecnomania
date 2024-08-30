@@ -3,6 +3,10 @@ nombre: iPhone 15
 precio: 12499
 imagenUrl: >-
   https://assets.tina.io/2440011d-ac00-4a2d-8f2b-581714fe22fa/Apple-iPhone-15-lineup-hero-230912_inline.jpg.large.jpg
+categories:
+  - ''
+  - smartphone
+  - apple
 cantidad: 2
 ---
 
