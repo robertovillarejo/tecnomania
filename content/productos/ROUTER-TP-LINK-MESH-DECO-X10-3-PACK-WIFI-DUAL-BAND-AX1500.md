@@ -3,6 +3,10 @@ nombre: ROUTER TP LINK MESH DECO X10 3 PACK WIFI DUAL BAND AX1500
 precio: 4069
 imagenUrl: >-
   https://assets.tina.io/2440011d-ac00-4a2d-8f2b-581714fe22fa/cdeca8af-947e-4e34-a9c0-f975281385f6.d9dbb9c74865c3acfd427f8771ec5f33.jpeg
+categories:
+  - ''
+  - redes
+  - wifi
 cantidad: 5
 ---
 
